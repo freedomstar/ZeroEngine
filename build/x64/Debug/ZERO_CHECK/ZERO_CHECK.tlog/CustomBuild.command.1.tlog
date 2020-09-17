@@ -1,0 +1,10 @@
+^D:\ZEROENGINE\BUILD\CMAKEFILES\954665C2256459CAAADC5A164BB94A14\GENERATE.STAMP.RULE
+setlocal
+C:\Cmake\bin\cmake.exe -SD:/ZeroEngine -BD:/ZeroEngine/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/ZeroEngine/build/ZeroEngine.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
