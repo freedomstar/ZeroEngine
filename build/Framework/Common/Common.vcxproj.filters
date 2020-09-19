@@ -4,6 +4,9 @@
     <ClCompile Include="D:\ZeroEngine\Framework\Common\BaseApplication.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="D:\ZeroEngine\Framework\Common\GraphicsManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="D:\ZeroEngine\Framework\Common\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>

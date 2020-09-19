@@ -9,7 +9,7 @@ The output was:
 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.5.0+d4cbfca49
 版权所有(C) Microsoft Corporation。保留所有权利。
 
-生成启动时间为 2020/9/17 19:02:07。
+生成启动时间为 2020/9/18 21:47:18。
 节点 1 上的项目“D:\ZeroEngine\build\CMakeFiles\3.18.2\CompilerIdC\CompilerIdC.vcxproj”(默认目标)。
 PrepareForBuild:
   正在创建目录“Debug\”。
@@ -35,7 +35,7 @@ FinalizeBuildStatus:
     0 个警告
     0 个错误
 
-已用时间 00:00:01.11
+已用时间 00:00:01.08
 
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -54,7 +54,7 @@ The output was:
 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.5.0+d4cbfca49
 版权所有(C) Microsoft Corporation。保留所有权利。
 
-生成启动时间为 2020/9/17 19:02:08。
+生成启动时间为 2020/9/18 21:47:19。
 节点 1 上的项目“D:\ZeroEngine\build\CMakeFiles\3.18.2\CompilerIdCXX\CompilerIdCXX.vcxproj”(默认目标)。
 PrepareForBuild:
   正在创建目录“Debug\”。
@@ -80,7 +80,7 @@ FinalizeBuildStatus:
     0 个警告
     0 个错误
 
-已用时间 00:00:00.87
+已用时间 00:00:00.85
 
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -92,28 +92,28 @@ The CXX compiler identification is MSVC, found in "D:/ZeroEngine/build/CMakeFile
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: D:/ZeroEngine/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/VisualStudio/MSBuild/Current/Bin/MSBuild.exe cmTC_e47bb.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.5.0+d4cbfca49
+Run Build Command(s):D:/VisualStudio/MSBuild/Current/Bin/MSBuild.exe cmTC_551d4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.5.0+d4cbfca49
 版权所有(C) Microsoft Corporation。保留所有权利。
 
   用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.25.28612 版
   CMakeCCompilerABI.c
   版权所有(C) Microsoft Corporation。保留所有权利。
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e47bb.dir\Debug\\" /Fd"cmTC_e47bb.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Cmake\share\cmake-3.18\Modules\CMakeCCompilerABI.c"
-  cmTC_e47bb.vcxproj -> D:\ZeroEngine\build\CMakeFiles\CMakeTmp\Debug\cmTC_e47bb.exe
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_551d4.dir\Debug\\" /Fd"cmTC_551d4.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Cmake\share\cmake-3.18\Modules\CMakeCCompilerABI.c"
+  cmTC_551d4.vcxproj -> D:\ZeroEngine\build\CMakeFiles\CMakeTmp\Debug\cmTC_551d4.exe
 
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: D:/ZeroEngine/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/VisualStudio/MSBuild/Current/Bin/MSBuild.exe cmTC_74837.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.5.0+d4cbfca49
+Run Build Command(s):D:/VisualStudio/MSBuild/Current/Bin/MSBuild.exe cmTC_e13fc.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.5.0+d4cbfca49
 版权所有(C) Microsoft Corporation。保留所有权利。
 
   用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.25.28612 版
-  版权所有(C) Microsoft Corporation。保留所有权利。
   CMakeCXXCompilerABI.cpp
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_74837.dir\Debug\\" /Fd"cmTC_74837.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue "C:\Cmake\share\cmake-3.18\Modules\CMakeCXXCompilerABI.cpp"
-  cmTC_74837.vcxproj -> D:\ZeroEngine\build\CMakeFiles\CMakeTmp\Debug\cmTC_74837.exe
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_e13fc.dir\Debug\\" /Fd"cmTC_e13fc.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue "C:\Cmake\share\cmake-3.18\Modules\CMakeCXXCompilerABI.cpp"
+  cmTC_e13fc.vcxproj -> D:\ZeroEngine\build\CMakeFiles\CMakeTmp\Debug\cmTC_e13fc.exe
 
 
 

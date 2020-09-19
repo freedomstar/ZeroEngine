@@ -18,7 +18,7 @@ void Zero::BaseApplication::Finalize()
 // One cycle of the main loop
 void Zero::BaseApplication::Tick()
 {
-        std::cout<<"BaseApplication::Tick"<<std::endl;
+        std::cout<<"BaseApplication::Tick 222"<<std::endl;
 }
 
 bool Zero::BaseApplication::IsQuit()
